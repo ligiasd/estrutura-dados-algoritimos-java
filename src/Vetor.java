@@ -74,6 +74,11 @@ public class Vetor {
             this.elementos = elementosNovos;
         }
     }
+//      B C D G F   = POSICAO A SER REMOVIDA 1
+    //  0 1 2 3 4   = TAMANHO 5
+    //  VETOR[1] = VETOR[2]
+    //  VETOR[2] = VETOR[3]
+    //  VETOR[3] = VETOR[4]
 
     public void remove(int posicao){
         if ( !(posicao >= 0 && posicao <= tamanho)){
